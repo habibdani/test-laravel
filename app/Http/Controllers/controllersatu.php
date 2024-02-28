@@ -38,7 +38,7 @@ class Controllersatu extends BaseController
         for ($i = $min; $i <= $max; $i++){
             foreach($array as $value){
                 if($value == $i){
-                    $urutin[] = $value;        }
+                    $urutin[] = $value;  }
             }
         }
     return $urutin;
